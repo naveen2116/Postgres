@@ -53,6 +53,8 @@ Postgrest
 
 Run the infrastructure provisioning script:
 
+` cd tofu `
+
 `./terraform-apply.sh`
 
 **This script performs the following actions:**
@@ -199,6 +201,8 @@ This confirms that:
 **Destroying the Infrastructure**
 
 To remove all resources, run:
+
+` cd tofu `
 
 `./terraform-destroy.sh`
 
