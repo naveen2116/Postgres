@@ -41,6 +41,8 @@ Terraform or OpenTofu
 kubectl
 Git
 
+---
+
 **Project Structure**
 
 ```
