@@ -72,7 +72,8 @@ Postgrest
         └── versions.tf
 ```
 
-        
+---
+
 **Deployment Instructions**
 **1. Provision Infrastructure**
 
