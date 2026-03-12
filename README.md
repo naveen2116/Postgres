@@ -1,10 +1,35 @@
-**Infrastructure Take Home:**
+## Pipekit Infrastructure Assignment
 
-Treat this system as a production system.
+This repository contains the implementation of the **Infrastructure Take-Home Assignment provided by Pipekit**.
+The objective of this assignment is to design and deploy a **production-like infrastructure setup** that provisions a Kubernetes environment, configures PostgreSQL, and deploys a PostgREST application exposing database tables as REST APIs.
 
-Getting Started
+The solution demonstrates infrastructure provisioning, Kubernetes resource management, and automated deployment using modern DevOps tools.
 
-Clone this repository locally.
+### Technologies Used
+
+* Terraform / OpenTofu
+* Docker
+* k3d (Lightweight Kubernetes)
+* Kubernetes
+* PostgreSQL 16
+* PostgREST
+* ArgoCD (for GitOps manifests)
+* kubectl
+* Git
+
+---
+
+## Getting Started
+
+Clone this repository locally to begin the setup and deployment process.
+
+```bash
+git clone <repository-url>
+cd Postgrest
+```
+
+Follow the deployment instructions below to provision the infrastructure and deploy the application.
+
 
 **Prerequisites**
 
