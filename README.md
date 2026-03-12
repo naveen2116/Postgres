@@ -204,6 +204,8 @@ An Ingress resource is created so that Traefik can expose the API externally.
 
 `http://<SERVER_IP>:8080/users`
 
+---
+
 **Accessing the API**
 
 Once the deployment is complete, open the following URL in a browser.
@@ -226,6 +228,8 @@ This confirms that:
 3, The Kubernetes job inserted data
 4. PostgREST successfully exposed the database table as an API endpoint
 
+---
+
 **Destroying the Infrastructure**
 
 To remove all resources, run:
@@ -240,6 +244,8 @@ This script performs the cleanup in reverse order:
 2. Destroys infrastructure created in cluster
 3. Deletes the k3d Kubernetes cluster
 4. Removes the PostgreSQL container and related resources
+
+---
 
 **Components Used**
 **Infrastructure**
@@ -271,6 +277,8 @@ Example:
 maps directly to the PostgreSQL table:
 
 `users`
+
+---
 
 **Expected Result**
 
