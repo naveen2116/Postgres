@@ -35,11 +35,14 @@ Follow the deployment instructions below to provision the infrastructure and dep
 
 The following tools must be installed on the system.
 
+```
 Docker runtime and Docker CLI
 k3d CLI
 Terraform or OpenTofu
 kubectl
 Git
+
+```
 
 ---
 
